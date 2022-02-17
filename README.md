@@ -11,7 +11,7 @@ Amazon Go is the first store of its kind where you don’t need to check out fro
 
 Amazon Go technology can detect when products are taken or returned to the shelves and keeps track of them in your virtual cart.
 
-<img align="left" alt="Visual Studio Code" width="820px" src="https://github.com/harshithvh/Amazon-Go/blob/main/images/img1.png" />
+<img align="left" alt="Visual Studio Code" width="820px" src="https://github.com/harshithvh/Amazon-Go/blob/main/images/img1.jpg" />
 
 # How does it Works ?
 
