@@ -42,3 +42,43 @@ Object classification is related to computer vision and image processing that de
 ---
 
 Object identification refers to identifying the unique characteristics of an object. Instead of classifying objects into fruit and vegetable only, the algorithm tries to find which fruit or vegetable is present in our image.
+
+# 1.3 Object Tracking
+
+---
+
+Videos are just a bunch of images. If we pass each image to our computer vision algorithm, then our algorithm might think that each
+
+person in all images are different, but they are not.
+
+Like in following scenario, two cameras can see the same person, but watch camera will identify the same person as different person if object tracking is not used.
+
+Thus with object tracking we can track each object in frame so that the same person doesn't get registered as new person.
+
+<img align="left" alt="Visual Studio Code" width="820px" src="https://github.com/harshithvh/Amazon-Go/blob/main/images/img4.png" />
+
+# 2. Sensor Fusion
+
+---
+
+Just the way self driven cars are loaded with sensors to make it learn how to drive, Amazon Go stores use cameras to track a user’s action in the store. The amazon Go stores use a system of cameras, sensors and/or RFID readers to identify shoppers and the items they’ve chosen. Signals and data from all these sensors are fed computers to identify customer interactions.
+
+<img align="left" alt="Visual Studio Code" width="820px" src="https://github.com/harshithvh/Amazon-Go/blob/main/images/img5.png" />
+
+For example, if computer vision detects that a customer is going to place or pick an item, then it will trigger the smart shelfs with weight and RFID sensors to find whether customer is picking an item or placing back an item.
+
+<img align="left" alt="Visual Studio Code" width="820px" src="https://github.com/harshithvh/Amazon-Go/blob/main/images/img6.png" />
+
+# 3. Deep Learning - YOLO
+
+---
+
+YOLO or You Only Look Once is a convolution neural network that can locate and classify objects in a picture. Before YOLO there were other convolution networks that can perform the same task, but they were extremely slow. Thus they can't be used on cars with autopilot. Also, earlier networks first locate the object, then classify it. But YOLO as the name suggests an image is used only once to locate and classify it.
+
+The following picture shows yolo architecture.
+
+<img align="left" alt="Visual Studio Code" width="820px" src="https://github.com/harshithvh/Amazon-Go/blob/main/images/img7.png" />
+
+Amazon Go stores use YOLO to locate, and track humans in a store. After locating human in frames, the frames is fed to another computer vision algorithm that will estimate pose of human and find whether human is picking or walking in the store. 
+
+
