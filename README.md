@@ -9,6 +9,8 @@ https://user-images.githubusercontent.com/91654378/154535651-e4c2a480-4c4d-428a-
 
 Amazon Go is the first store of its kind where you don’t need to check out from the store. Customers can simply enter the store using the Amazon Go app to browse and take the products they want and can leave. How cool is that? Amazon Go store is partially automated where customers don’t need to stand in a queue for check-out counters.
 
+Amazon Go technology can detect when products are taken or returned to the shelves and keeps track of them in your virtual cart.
+
 <img align="left" alt="Visual Studio Code" width="820px" src="https://github.com/harshithvh/Amazon-Go/blob/main/images/img1.png" />
 
 # How does it Works ?
